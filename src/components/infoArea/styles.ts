@@ -18,6 +18,8 @@ export const ResumeArea = styled.div`
     width: 40px;
     text-align: center;
     font-size: 25px;
+    display: flex;
+    flex: 1;
     cursor: pointer;
 `;
 export const MonthArrow = styled.div`
@@ -27,4 +29,4 @@ export const MonthArrow = styled.div`
 export const MonthTitle = styled.div`
     flex: 2;
     display: flex;  
-`;  
+`;
