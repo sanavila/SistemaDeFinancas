@@ -27,4 +27,4 @@ export const MonthArrow = styled.div`
 export const MonthTitle = styled.div`
     flex: 2;
     display: flex;  
-`;
+`;  
