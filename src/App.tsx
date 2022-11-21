@@ -14,6 +14,7 @@ const App = () => {
   const [income, setIncome] = useState(0);
   const [expense, setExpense] = useState(0);
 
+  //
   useEffect(()=> {
     setFilteredList( filterListByMonth(list, currentMonth));
   }, [list, currentMonth]);
@@ -49,7 +50,7 @@ const App = () => {
       onMonthChange={handleMonthChange}
       income={income}
       expense={expense}
-      />
+      /> 
       <TableArea list={filteredList}/>
     </C.Body>
     </C.Container>
